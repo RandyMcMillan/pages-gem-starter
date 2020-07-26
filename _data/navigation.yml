@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
+  - title: "Theme"
+    url: /theme/
+  - title: "Categories"
+    url: /categories/
+  - title: "Posts"
+    url: /posts/
+  - title: "Tags"
+    url: /tags/
