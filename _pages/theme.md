@@ -1,7 +1,6 @@
 ---
-author_profile: true
-permalink: /about/
-title: "GitHub Pages Docker"
+permalink: /theme/
+title: "Theme"
 ---
 
 <html>
@@ -10,30 +9,21 @@ title: "GitHub Pages Docker"
 </head>
 </html>
 
-```
-Install docker
-```
-then
-
-```
-git clone https://github.com/RandyMcMillan/pages-gem.git
-cd pages-gem
-SITE=./docs make image
-SITE=./docs make server
-```
-
-# Templated theme:
-
+# Pages-Gem remote theme starter
 
 Click [<i class=""></i> **Create Theme**](https://github.com/randymcmillan/pages-gem-starter/generate){: .btn .btn--primary} for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes){: .btn .btn--primary}.
 
-```
-Use the link above to create a new theme repo
-git clone https://github.com/RandyMcMillan/<your-theme>.git
-cd <your-theme>
-SITE=~/<your-theme> make image
-SITE=~/<your-theme> make server
-```
+Contains basic configuration to get you a site with:
+
+- Sample posts.
+- Sample top navigation.
+- Sample author sidebar with social links.
+- Sample footer links.
+- Paginated home page.
+- Archive pages for posts grouped by year, category, and tag.
+- Sample about page.
+- Sample 404 page.
+- Site wide search.
 
 
 ## License
